@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/arrayCanciones.js"></script>
+    <script defer src="js/funciones.js"></script>
+    <script defer src="js/eventos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 id ="titulo">Fans de los Picantes Rojos</h1>
+    <h2 id ="parrafoDescriptivo">Acordes de canciones de los RHCP</h2>
+    <article class ="container">
+      <div class="parent">
+        <div class="input-group mb-3">
+          <input id ="nombrecancion" type="text" class="form-control" placeholder="Buscar Cancion RHCP" aria-label="Buscar Cancion" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+        </div>
+        
+        <ul id="lista">
+                
+        </ul>
+        <h4>Agrega acordes y canciones que no se encuentren</h4>
+        <form id = "formulario">
+          <input id ="nombreingresado" type ="text" placeholder="Nombre">
+          <input id ="acordesingresados" type ="text" placeholder="Acordes">
+          <button id = "ingresarboton" class="btn btn-outline-secondary" type="button" id="button-addon2">Ingresar</button>
+        </form>
+        
+        <footer class ="Informacion de la Banda">
+          <button type="button" class="btn btn-primary">Informacion de la Banda</button>
+      </footer>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Informacion
+            </th>
+          </tr>
+        </thead>
+        <tbody id="listado">
+        <tr>
+    
+          <td></td>
+        </tr>
+        </tbody>
+      </table>
+
+      
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+       </div>
+    </article>
+    
+</body>
+</html>
